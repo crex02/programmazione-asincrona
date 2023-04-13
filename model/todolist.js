@@ -14,15 +14,15 @@ class Todolist{
     }
 
     sortByTitle(){
-
+        return this.todoArray.sort((todo1, todo2) => todo1.compareByTitle(todo2));
     }
 
     sortByCreationDate(){
-
+       return this.todoArray.sort((todo1, todo2) => todo1.compareByCreationDate(todo2));
     }
 
     completeTodo(todo){
-
+        
     }
 
     static fromObjectArray(title, objectArray) {

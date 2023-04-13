@@ -73,3 +73,9 @@
 // }
 
 // xhr.send();
+
+
+// GET = LETTURA DATI
+// POST = SCRITTURA DATI
+// PUT = MODIFICA DATI
+// DELETE = CANCELLAZIONE DATI

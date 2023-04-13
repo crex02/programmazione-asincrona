@@ -7,8 +7,8 @@ class DataService {
     // }
 
     static getTodos() {
-        return fetch('https://643672ab8205915d34f3b508.mockapi.io/todos')
-            .then(resp => resp.json())
+        return fetch('https://643693c28205915d34f73df1.mockapi.io/todos')
+        .then(resp => resp.json());
     }
 
 
@@ -23,6 +23,5 @@ class DataService {
     // static deleteTodo(todo){
 
     // }
-
 
 }
